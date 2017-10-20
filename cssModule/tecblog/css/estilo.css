@@ -1,0 +1,98 @@
+/* Limpar formatações padrão, pois cada navegador tem sua formatação padrão */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Formatacao de elementos */
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+                 'Lucida Sans', Arial, sans-serif;
+    background: gray;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* liks nao visualizados */
+a:link{
+    color: #838383;
+}
+
+/* liks visualizados */
+a:visited{
+    color: #838383;
+}
+
+/* liks hover */
+a:hover{
+    background:green;
+    color: white;
+}
+/* liks ativos */
+a:active{
+    color: #535353;
+}
+
+
+/* Formatacao de Ids */
+#navegacao{
+    background: white;
+    border: 1px solid #d8d8d8;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#area{
+    width: 720px;
+    margin: 0 auto;
+}
+
+#area-main{
+    width: 720px;
+    margin: 55px auto 10px auto;
+}
+
+#postagem{
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: right;
+    padding: 10px 0;
+}
+
+/* Formatacao de classes */
+.verde{
+    color: green;
+}
+
+.data-postagem{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.img-post{
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.postado{
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+}
